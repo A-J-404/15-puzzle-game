@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+}
+body{
+    background-color: rgb(94, 245, 94);
+}
+#head-text{
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    border-bottom: 4px solid black;
+    text-align: center;
+    padding-bottom: 25px ;
+}
+.head-info{
+    display: inline-block;
+    font-size: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+    line-height: 60px;
+}
+
+.blocks{
+    list-style: none;
+    padding: 15px;
+    text-align: center;
+}
+.tile-1::after {
+  content: "1";
+}
+.tile-2::after {
+  content: "2";
+}
+.tile-3::after {
+  content: "3";
+}
+.tile-4::after {
+  content: "4";
+}
+.tile-5::after {
+  content: "5";
+}
+.tile-6::after {
+  content: "6";
+}
+.tile-7::after {
+  content: "7";
+}
+.tile-8::after {
+  content: "8";
+}
+.tile-9::after {
+  content: "9";
+}
+.tile-10::after {
+  content: "10";
+}
+.tile-11::after {
+  content: "11";
+}
+.tile-12::after {
+  content: "12";
+}
+.tile-13::after {
+  content: "13";
+}
+.tile-14::after {
+  content: "14";
+}
+.tile-15::after {
+  content: "15";
+}
+.tile-16::before {
+  content: "16";
+}
+
+
+.tile{
+    border: 2px solid black;
+    border-radius: 10px;
+    display: inline-block;
+    width: 107px;
+    height: 107px;
+    text-align: center;
+    padding: 20px;
+    margin: 2px 0;
+    font-size: 50px;
+    background-color:aliceblue;
+    cursor: pointer;
+}
+.tile-16{
+    background-color: rgb(94, 245, 94);
+    color: rgb(94, 245, 94);
+}
+.cont{
+    text-align: center;
+}
+.cont a{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: rgb(101, 170, 235);
+    margin: 20px 10.35px 16px 0;
+    padding: 12px 32px;
+    border-radius: 30px;
+    line-height: 45px;
+    
+}
+.footer{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif; 
+}
+.footer-info{
+    padding-top: 50px;
+}
+.social{
+    text-align: center;
+}
+.social ul{
+    list-style: none;
+}
+.social li{
+    display:inline-block;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 50px 20px 40px 20px;
+}
